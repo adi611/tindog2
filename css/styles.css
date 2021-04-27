@@ -166,6 +166,9 @@ h2{
     font-size: small;
 }
 @media screen and (max-width: 1028px){
+    .big-h{
+        width: 100%;
+    }
     #title{
         text-align: center;
     }
