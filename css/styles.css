@@ -165,7 +165,7 @@ h2{
     color: #8f8f8f;
     font-size: small;
 }
-@media (max-width: 1028px){
+@media screen and (max-width: 1028px){
     #title{
         text-align: center;
     }
