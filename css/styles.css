@@ -1,3 +1,6 @@
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
 /* html{
     background-color: white;
 } */
@@ -14,7 +17,7 @@
 } */
 .big-h{
     font-family: 'Montserrat', sans-serif;
-    font-size: 350%;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
     color: white;
@@ -165,9 +168,18 @@ h2{
     color: #8f8f8f;
     font-size: small;
 }
-@media screen and (max-width: 1028px){
+@media (max-width: 1028px){
+    h2{
+        font-size: 2rem;
+    }
+    #features{
+        padding: 10px;
+    }
+    .navbar-brand{
+        font-size: 30px;
+    }
     .big-h{
-        width: 100%;
+        font-size: 2.5rem;
     }
     #title{
         text-align: center;
@@ -176,5 +188,14 @@ h2{
         /* margin: auto; */
         position: static;
         transform: rotate(0);
+    }
+    #pricing{
+    padding: 50px;
+}
+    #cta{
+        padding: 7% 10%;
+    }
+    .cta-h{
+        font-size: 3rem;
     }
 }
